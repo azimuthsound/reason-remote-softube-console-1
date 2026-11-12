@@ -1,0 +1,995 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Softube
+Control Surface Model	Console 1 - 20 Channel
+Map Version	0.1.0
+
+
+Scope	Propellerheads	Reason Document			
+
+Map	Preset		Undo
+
+
+Scope	Propellerheads	Reason Master Section																				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode																	
+//MUTES																						
+Define Group	Layer	Track1	Track2	Track3	Track4	Track5	Track6	Track7	Track8	Track9	Track10	Track11	Track12	Track13	Track14	Track15	Track16	Track17	Track18	Track19	Track20	Master	Mute
+																						
+// Track Buttons																						
+Map	Select Track 1		Layer=Track1																			
+Map	Select Track 2		Layer=Track2																			
+Map	Select Track 3		Layer=Track3																			
+Map	Select Track 4		Layer=Track4																			
+Map	Select Track 5		Layer=Track5																			
+Map	Select Track 6		Layer=Track6																			
+Map	Select Track 7		Layer=Track7																			
+Map	Select Track 8		Layer=Track8																			
+Map	Select Track 9		Layer=Track9																			
+Map	Select Track 10		Layer=Track10																			
+Map	Select Track 11		Layer=Track11																			
+Map	Select Track 12		Layer=Track12																			
+Map	Select Track 13		Layer=Track13																			
+Map	Select Track 14		Layer=Track14																			
+Map	Select Track 15		Layer=Track15																			
+Map	Select Track 16		Layer=Track16																			
+Map	Select Track 17		Layer=Track17																			
+Map	Select Track 18		Layer=Track18																			
+Map	Select Track 19		Layer=Track19																			
+Map	Select Track 20		Layer=Track20																			
+Map	Track Copy		Layer=Master																			
+Map	Track Group		Layer=Mute																						
+
+// TRACK			_____________________																			
+																						
+// Page Buttons																						
+Map	Page Up		Next Remote Base Channel																			
+Map	Page Down		Previous Remote Base Channel																			
+// Track Buttons																						
+//Map			XX																			
+//Map	Track Group		XX																			
+																						
+																						
+//MASTER						Master																
+Map	Compressor Threshold		Threshold			Master																
+Map	Compressor Ratio		Ratio			Master																
+Map	Compressor Attack		Attack			Master																
+Map	Compressor Release		Release			Master																
+Map	Drive		Make-Up Gain			Master																
+Map	Compressor Gain Reduction		Gain Reduction			Master																
+Map	Compressor On		Compressor On			Master																
+Map	Character		Master Level			Master																
+Map	Volume		Ctrl Room Level			Master																
+Map	Output Meter L		Master Level Meter Left			Master																
+Map	Output Meter R		Master Level Meter Right			Master																
+Map	Gate On		Inserts Connected			Master																
+Map	Filters to Compressor		Inserts Pre			Master																
+Map	EQ On		Bypass Insert FX			Master																
+Map	Low Gain		Rotary 1			Master																
+Map	Low Mid Gain		Rotary 2			Master																
+Map	High Mid Gain		Rotary 3			Master																
+Map	High Gain		Rotary 4			Master																
+Map	Mute		All Mutes Off			Master
+Map	Solo		All Solo Off			Master
+//TRACK 1						Track1																
+Map	Order		Channel 1 Insert Pre			Track1																
+Map	External Sidechain		Channel 1 Dyn Post EQ			Track1																
+Map	Filters to Compressor		Channel 1 Filters Dyn S/C			Track1																
+Map	Phase Invert		Channel 1 Invert Phase			Track1																
+Map	Low Cut		Channel 1 HPF Frequency			Track1																
+Map	High Cut		Channel 1 LPF Frequency			Track1																
+Map	Input Gain		Channel 1 Input Gain			Track1																
+Map	Peak Input Meter		Channel 1 To Insert FX Peak Meter			Track1																
+Map	Peak Output Meter		Channel 1 From Insert FX Peak Meter			Track1																
+Map	Gate On		Channel 1 Gate On			Track1																
+Map	Hard Gate		Channel 1 G Fast Atk			Track1																
+Map	Gate		Channel 1 G Range			Track1																
+Map	Sustain		Channel 1 G Hold			Track1																
+Map	Gate Release		Channel 1 G Release			Track1																
+Map	Punch		Channel 1 G Threshold			Track1																
+Map	Gate Gain Reduction		Channel 1 Gate Gain Reduction			Track1																
+Map	EQ On		Channel 1 EQ On			Track1																
+Map	Low Shape		Channel 1 LF Bell			Track1																
+Map	High Shape		Channel 1 HF Bell			Track1																
+Map	High Gain		Channel 1 HF Gain			Track1																
+Map	High Frequency		Channel 1 HF Frequency			Track1																
+Map	High Mid Gain		Channel 1 HMF Gain			Track1																
+Map	High Mid Frequency		Channel 1 HMF Frequency			Track1																
+Map	High Mid Q		Channel 1 HMF Q			Track1																
+Map	Low Mid Gain		Channel 1 LMF Gain			Track1																
+Map	Low Mid Frequency		Channel 1 LMF Frequency			Track1																
+Map	Low Mid Q		Channel 1 LMF Q			Track1																
+Map	Low Gain		Channel 1 LF Gain			Track1																
+Map	Low Frequency		Channel 1 LF Frequency			Track1																
+Map	Compressor On		Channel 1 Comp On			Track1																
+Map	Compressor Threshold		Channel 1 C Threshold			Track1																
+Map	Compressor Release		Channel 1 C Release			Track1																
+Map	Compressor Ratio		Channel 1 C Ratio			Track1																
+Map	Compressor Attack		Channel 1 C Fast Atk			Track1																
+Map	Compressor Gain Reduction		Channel 1 Comp Gain Reduction			Track1																
+Map	Mute		Channel 1 Mute			Track1																
+Map	Solo		Channel 1 Solo			Track1																
+Map	Volume		Channel 1 Level			Track1																
+Map	Pan		Channel 1 Pan			Track1																
+Map	Character		Channel 1 Width			Track1																
+Map	Output Meter L		Channel 1 VU Meter L			Track1																
+Map	Output Meter R		Channel 1 VU Meter R			Track1																
+Map	Display Mode		Channel 1 LPF On			Track1																
+Map	Display On		Channel 1 HPF On			Track1																
+//TRACK 2						Track2																
+Map	Order		Channel 2 Insert Pre			Track2																
+Map	External Sidechain		Channel 2 Dyn Post EQ			Track2																
+Map	Filters to Compressor		Channel 2 Filters Dyn S/C			Track2																
+Map	Phase Invert		Channel 2 Invert Phase			Track2																
+Map	Low Cut		Channel 2 HPF Frequency			Track2																
+Map	High Cut		Channel 2 LPF Frequency			Track2																
+Map	Input Gain		Channel 2 Input Gain			Track2																
+Map	Peak Input Meter		Channel 2 To Insert FX Peak Meter			Track2																
+Map	Peak Output Meter		Channel 2 From Insert FX Peak Meter			Track2																
+Map	Gate On		Channel 2 Gate On			Track2																
+Map	Hard Gate		Channel 2 G Fast Atk			Track2																
+Map	Gate		Channel 2 G Range			Track2																
+Map	Sustain		Channel 2 G Hold			Track2																
+Map	Gate Release		Channel 2 G Release			Track2																
+Map	Punch		Channel 2 G Threshold			Track2																
+Map	Gate Gain Reduction		Channel 2 Gate Gain Reduction			Track2																
+Map	EQ On		Channel 2 EQ On			Track2																
+Map	Low Shape		Channel 2 LF Bell			Track2																
+Map	High Shape		Channel 2 HF Bell			Track2																
+Map	High Gain		Channel 2 HF Gain			Track2																
+Map	High Frequency		Channel 2 HF Frequency			Track2																
+Map	High Mid Gain		Channel 2 HMF Gain			Track2																
+Map	High Mid Frequency		Channel 2 HMF Frequency			Track2																
+Map	High Mid Q		Channel 2 HMF Q			Track2																
+Map	Low Mid Gain		Channel 2 LMF Gain			Track2																
+Map	Low Mid Frequency		Channel 2 LMF Frequency			Track2																
+Map	Low Mid Q		Channel 2 LMF Q			Track2																
+Map	Low Gain		Channel 2 LF Gain			Track2																
+Map	Low Frequency		Channel 2 LF Frequency			Track2																
+Map	Compressor On		Channel 2 Comp On			Track2																
+Map	Compressor Threshold		Channel 2 C Threshold			Track2																
+Map	Compressor Release		Channel 2 C Release			Track2																
+Map	Compressor Ratio		Channel 2 C Ratio			Track2																
+Map	Compressor Attack		Channel 2 C Fast Atk			Track2																
+Map	Compressor Gain Reduction		Channel 2 Comp Gain Reduction			Track2																
+Map	Mute		Channel 2 Mute			Track2																
+Map	Solo		Channel 2 Solo			Track2																
+Map	Volume		Channel 2 Level			Track2																
+Map	Pan		Channel 2 Pan			Track2																
+Map	Character		Channel 2 Width			Track2																
+Map	Output Meter L		Channel 2 VU Meter L			Track2																
+Map	Output Meter R		Channel 2 VU Meter R			Track2																
+Map	Display Mode		Channel 2 LPF On			Track2																
+Map	Display On		Channel 2 HPF On			Track2																
+//TRACK 3						Track3																
+Map	Order		Channel 3 Insert Pre			Track3																
+Map	External Sidechain		Channel 3 Dyn Post EQ			Track3																
+Map	Filters to Compressor		Channel 3 Filters Dyn S/C			Track3																
+Map	Phase Invert		Channel 3 Invert Phase			Track3																
+Map	Low Cut		Channel 3 HPF Frequency			Track3																
+Map	High Cut		Channel 3 LPF Frequency			Track3																
+Map	Input Gain		Channel 3 Input Gain			Track3																
+Map	Peak Input Meter		Channel 3 To Insert FX Peak Meter			Track3																
+Map	Peak Output Meter		Channel 3 From Insert FX Peak Meter			Track3																
+Map	Gate On		Channel 3 Gate On			Track3																
+Map	Hard Gate		Channel 3 G Fast Atk			Track3																
+Map	Gate		Channel 3 G Range			Track3																
+Map	Sustain		Channel 3 G Hold			Track3																
+Map	Gate Release		Channel 3 G Release			Track3																
+Map	Punch		Channel 3 G Threshold			Track3																
+Map	Gate Gain Reduction		Channel 3 Gate Gain Reduction			Track3																
+Map	EQ On		Channel 3 EQ On			Track3																
+Map	Low Shape		Channel 3 LF Bell			Track3																
+Map	High Shape		Channel 3 HF Bell			Track3																
+Map	High Gain		Channel 3 HF Gain			Track3																
+Map	High Frequency		Channel 3 HF Frequency			Track3																
+Map	High Mid Gain		Channel 3 HMF Gain			Track3																
+Map	High Mid Frequency		Channel 3 HMF Frequency			Track3																
+Map	High Mid Q		Channel 3 HMF Q			Track3																
+Map	Low Mid Gain		Channel 3 LMF Gain			Track3																
+Map	Low Mid Frequency		Channel 3 LMF Frequency			Track3																
+Map	Low Mid Q		Channel 3 LMF Q			Track3																
+Map	Low Gain		Channel 3 LF Gain			Track3																
+Map	Low Frequency		Channel 3 LF Frequency			Track3																
+Map	Compressor On		Channel 3 Comp On			Track3																
+Map	Compressor Threshold		Channel 3 C Threshold			Track3																
+Map	Compressor Release		Channel 3 C Release			Track3																
+Map	Compressor Ratio		Channel 3 C Ratio			Track3																
+Map	Compressor Attack		Channel 3 C Fast Atk			Track3																
+Map	Compressor Gain Reduction		Channel 3 Comp Gain Reduction			Track3																
+Map	Mute		Channel 3 Mute			Track3																
+Map	Solo		Channel 3 Solo			Track3																
+Map	Volume		Channel 3 Level			Track3																
+Map	Pan		Channel 3 Pan			Track3																
+Map	Character		Channel 3 Width			Track3																
+Map	Output Meter L		Channel 3 VU Meter L			Track3																
+Map	Output Meter R		Channel 3 VU Meter R			Track3																
+Map	Display Mode		Channel 3 LPF On			Track3																
+Map	Display On		Channel 3 HPF On			Track3																
+//TRACK 4						Track4																
+Map	Order		Channel 4 Insert Pre			Track4																
+Map	External Sidechain		Channel 4 Dyn Post EQ			Track4																
+Map	Filters to Compressor		Channel 4 Filters Dyn S/C			Track4																
+Map	Phase Invert		Channel 4 Invert Phase			Track4																
+Map	Low Cut		Channel 4 HPF Frequency			Track4																
+Map	High Cut		Channel 4 LPF Frequency			Track4																
+Map	Input Gain		Channel 4 Input Gain			Track4																
+Map	Peak Input Meter		Channel 4 To Insert FX Peak Meter			Track4																
+Map	Peak Output Meter		Channel 4 From Insert FX Peak Meter			Track4																
+Map	Gate On		Channel 4 Gate On			Track4																
+Map	Hard Gate		Channel 4 G Fast Atk			Track4																
+Map	Gate		Channel 4 G Range			Track4																
+Map	Sustain		Channel 4 G Hold			Track4																
+Map	Gate Release		Channel 4 G Release			Track4																
+Map	Punch		Channel 4 G Threshold			Track4																
+Map	Gate Gain Reduction		Channel 4 Gate Gain Reduction			Track4																
+Map	EQ On		Channel 4 EQ On			Track4																
+Map	Low Shape		Channel 4 LF Bell			Track4																
+Map	High Shape		Channel 4 HF Bell			Track4																
+Map	High Gain		Channel 4 HF Gain			Track4																
+Map	High Frequency		Channel 4 HF Frequency			Track4																
+Map	High Mid Gain		Channel 4 HMF Gain			Track4																
+Map	High Mid Frequency		Channel 4 HMF Frequency			Track4																
+Map	High Mid Q		Channel 4 HMF Q			Track4																
+Map	Low Mid Gain		Channel 4 LMF Gain			Track4																
+Map	Low Mid Frequency		Channel 4 LMF Frequency			Track4																
+Map	Low Mid Q		Channel 4 LMF Q			Track4																
+Map	Low Gain		Channel 4 LF Gain			Track4																
+Map	Low Frequency		Channel 4 LF Frequency			Track4																
+Map	Compressor On		Channel 4 Comp On			Track4																
+Map	Compressor Threshold		Channel 4 C Threshold			Track4																
+Map	Compressor Release		Channel 4 C Release			Track4																
+Map	Compressor Ratio		Channel 4 C Ratio			Track4																
+Map	Compressor Attack		Channel 4 C Fast Atk			Track4																
+Map	Compressor Gain Reduction		Channel 4 Comp Gain Reduction			Track4																
+Map	Mute		Channel 4 Mute			Track4																
+Map	Solo		Channel 4 Solo			Track4																
+Map	Volume		Channel 4 Level			Track4																
+Map	Pan		Channel 4 Pan			Track4																
+Map	Character		Channel 4 Width			Track4																
+Map	Output Meter L		Channel 4 VU Meter L			Track4																
+Map	Output Meter R		Channel 4 VU Meter R			Track4																
+Map	Display Mode		Channel 4 LPF On			Track4																
+Map	Display On		Channel 4 HPF On			Track4																
+//TRACK 5						Track5																
+Map	Order		Channel 5 Insert Pre			Track5																
+Map	External Sidechain		Channel 5 Dyn Post EQ			Track5																
+Map	Filters to Compressor		Channel 5 Filters Dyn S/C			Track5																
+Map	Phase Invert		Channel 5 Invert Phase			Track5																
+Map	Low Cut		Channel 5 HPF Frequency			Track5																
+Map	High Cut		Channel 5 LPF Frequency			Track5																
+Map	Input Gain		Channel 5 Input Gain			Track5																
+Map	Peak Input Meter		Channel 5 To Insert FX Peak Meter			Track5																
+Map	Peak Output Meter		Channel 5 From Insert FX Peak Meter			Track5																
+Map	Gate On		Channel 5 Gate On			Track5																
+Map	Hard Gate		Channel 5 G Fast Atk			Track5																
+Map	Gate		Channel 5 G Range			Track5																
+Map	Sustain		Channel 5 G Hold			Track5																
+Map	Gate Release		Channel 5 G Release			Track5																
+Map	Punch		Channel 5 G Threshold			Track5																
+Map	Gate Gain Reduction		Channel 5 Gate Gain Reduction			Track5																
+Map	EQ On		Channel 5 EQ On			Track5																
+Map	Low Shape		Channel 5 LF Bell			Track5																
+Map	High Shape		Channel 5 HF Bell			Track5																
+Map	High Gain		Channel 5 HF Gain			Track5																
+Map	High Frequency		Channel 5 HF Frequency			Track5																
+Map	High Mid Gain		Channel 5 HMF Gain			Track5																
+Map	High Mid Frequency		Channel 5 HMF Frequency			Track5																
+Map	High Mid Q		Channel 5 HMF Q			Track5																
+Map	Low Mid Gain		Channel 5 LMF Gain			Track5																
+Map	Low Mid Frequency		Channel 5 LMF Frequency			Track5																
+Map	Low Mid Q		Channel 5 LMF Q			Track5																
+Map	Low Gain		Channel 5 LF Gain			Track5																
+Map	Low Frequency		Channel 5 LF Frequency			Track5																
+Map	Compressor On		Channel 5 Comp On			Track5																
+Map	Compressor Threshold		Channel 5 C Threshold			Track5																
+Map	Compressor Release		Channel 5 C Release			Track5																
+Map	Compressor Ratio		Channel 5 C Ratio			Track5																
+Map	Compressor Attack		Channel 5 C Fast Atk			Track5																
+Map	Compressor Gain Reduction		Channel 5 Comp Gain Reduction			Track5																
+Map	Mute		Channel 5 Mute			Track5																
+Map	Solo		Channel 5 Solo			Track5																
+Map	Volume		Channel 5 Level			Track5																
+Map	Pan		Channel 5 Pan			Track5																
+Map	Character		Channel 5 Width			Track5																
+Map	Output Meter L		Channel 5 VU Meter L			Track5																
+Map	Output Meter R		Channel 5 VU Meter R			Track5																
+Map	Display Mode		Channel 5 LPF On			Track5																
+Map	Display On		Channel 5 HPF On			Track5																
+//TRACK 6						Track6																
+Map	Order		Channel 6 Insert Pre			Track6																
+Map	External Sidechain		Channel 6 Dyn Post EQ			Track6																
+Map	Filters to Compressor		Channel 6 Filters Dyn S/C			Track6																
+Map	Phase Invert		Channel 6 Invert Phase			Track6																
+Map	Low Cut		Channel 6 HPF Frequency			Track6																
+Map	High Cut		Channel 6 LPF Frequency			Track6																
+Map	Input Gain		Channel 6 Input Gain			Track6																
+Map	Peak Input Meter		Channel 6 To Insert FX Peak Meter			Track6																
+Map	Peak Output Meter		Channel 6 From Insert FX Peak Meter			Track6																
+Map	Gate On		Channel 6 Gate On			Track6																
+Map	Hard Gate		Channel 6 G Fast Atk			Track6																
+Map	Gate		Channel 6 G Range			Track6																
+Map	Sustain		Channel 6 G Hold			Track6																
+Map	Gate Release		Channel 6 G Release			Track6																
+Map	Punch		Channel 6 G Threshold			Track6																
+Map	Gate Gain Reduction		Channel 6 Gate Gain Reduction			Track6																
+Map	EQ On		Channel 6 EQ On			Track6																
+Map	Low Shape		Channel 6 LF Bell			Track6																
+Map	High Shape		Channel 6 HF Bell			Track6																
+Map	High Gain		Channel 6 HF Gain			Track6																
+Map	High Frequency		Channel 6 HF Frequency			Track6																
+Map	High Mid Gain		Channel 6 HMF Gain			Track6																
+Map	High Mid Frequency		Channel 6 HMF Frequency			Track6																
+Map	High Mid Q		Channel 6 HMF Q			Track6																
+Map	Low Mid Gain		Channel 6 LMF Gain			Track6																
+Map	Low Mid Frequency		Channel 6 LMF Frequency			Track6																
+Map	Low Mid Q		Channel 6 LMF Q			Track6																
+Map	Low Gain		Channel 6 LF Gain			Track6																
+Map	Low Frequency		Channel 6 LF Frequency			Track6																
+Map	Compressor On		Channel 6 Comp On			Track6																
+Map	Compressor Threshold		Channel 6 C Threshold			Track6																
+Map	Compressor Release		Channel 6 C Release			Track6																
+Map	Compressor Ratio		Channel 6 C Ratio			Track6																
+Map	Compressor Attack		Channel 6 C Fast Atk			Track6																
+Map	Compressor Gain Reduction		Channel 6 Comp Gain Reduction			Track6																
+Map	Mute		Channel 6 Mute			Track6																
+Map	Solo		Channel 6 Solo			Track6																
+Map	Volume		Channel 6 Level			Track6																
+Map	Pan		Channel 6 Pan			Track6																
+Map	Character		Channel 6 Width			Track6																
+Map	Output Meter L		Channel 6 VU Meter L			Track6																
+Map	Output Meter R		Channel 6 VU Meter R			Track6																
+Map	Display Mode		Channel 6 LPF On			Track6																
+Map	Display On		Channel 6 HPF On			Track6																
+//TRACK 7						Track7																
+Map	Order		Channel 7 Insert Pre			Track7																
+Map	External Sidechain		Channel 7 Dyn Post EQ			Track7																
+Map	Filters to Compressor		Channel 7 Filters Dyn S/C			Track7																
+Map	Phase Invert		Channel 7 Invert Phase			Track7																
+Map	Low Cut		Channel 7 HPF Frequency			Track7																
+Map	High Cut		Channel 7 LPF Frequency			Track7																
+Map	Input Gain		Channel 7 Input Gain			Track7																
+Map	Peak Input Meter		Channel 7 To Insert FX Peak Meter			Track7																
+Map	Peak Output Meter		Channel 7 From Insert FX Peak Meter			Track7																
+Map	Gate On		Channel 7 Gate On			Track7																
+Map	Hard Gate		Channel 7 G Fast Atk			Track7																
+Map	Gate		Channel 7 G Range			Track7																
+Map	Sustain		Channel 7 G Hold			Track7																
+Map	Gate Release		Channel 7 G Release			Track7																
+Map	Punch		Channel 7 G Threshold			Track7																
+Map	Gate Gain Reduction		Channel 7 Gate Gain Reduction			Track7																
+Map	EQ On		Channel 7 EQ On			Track7																
+Map	Low Shape		Channel 7 LF Bell			Track7																
+Map	High Shape		Channel 7 HF Bell			Track7																
+Map	High Gain		Channel 7 HF Gain			Track7																
+Map	High Frequency		Channel 7 HF Frequency			Track7																
+Map	High Mid Gain		Channel 7 HMF Gain			Track7																
+Map	High Mid Frequency		Channel 7 HMF Frequency			Track7																
+Map	High Mid Q		Channel 7 HMF Q			Track7																
+Map	Low Mid Gain		Channel 7 LMF Gain			Track7																
+Map	Low Mid Frequency		Channel 7 LMF Frequency			Track7																
+Map	Low Mid Q		Channel 7 LMF Q			Track7																
+Map	Low Gain		Channel 7 LF Gain			Track7																
+Map	Low Frequency		Channel 7 LF Frequency			Track7																
+Map	Compressor On		Channel 7 Comp On			Track7																
+Map	Compressor Threshold		Channel 7 C Threshold			Track7																
+Map	Compressor Release		Channel 7 C Release			Track7																
+Map	Compressor Ratio		Channel 7 C Ratio			Track7																
+Map	Compressor Attack		Channel 7 C Fast Atk			Track7																
+Map	Compressor Gain Reduction		Channel 7 Comp Gain Reduction			Track7																
+Map	Mute		Channel 7 Mute			Track7																
+Map	Solo		Channel 7 Solo			Track7																
+Map	Volume		Channel 7 Level			Track7																
+Map	Pan		Channel 7 Pan			Track7																
+Map	Character		Channel 7 Width			Track7																
+Map	Output Meter L		Channel 7 VU Meter L			Track7																
+Map	Output Meter R		Channel 7 VU Meter R			Track7																
+Map	Display Mode		Channel 7 LPF On			Track7																
+Map	Display On		Channel 7 HPF On			Track7																
+//TRACK 8						Track8																
+Map	Order		Channel 8 Insert Pre			Track8																
+Map	External Sidechain		Channel 8 Dyn Post EQ			Track8																
+Map	Filters to Compressor		Channel 8 Filters Dyn S/C			Track8																
+Map	Phase Invert		Channel 8 Invert Phase			Track8																
+Map	Low Cut		Channel 8 HPF Frequency			Track8																
+Map	High Cut		Channel 8 LPF Frequency			Track8																
+Map	Input Gain		Channel 8 Input Gain			Track8																
+Map	Peak Input Meter		Channel 8 To Insert FX Peak Meter			Track8																
+Map	Peak Output Meter		Channel 8 From Insert FX Peak Meter			Track8																
+Map	Gate On		Channel 8 Gate On			Track8																
+Map	Hard Gate		Channel 8 G Fast Atk			Track8																
+Map	Gate		Channel 8 G Range			Track8																
+Map	Sustain		Channel 8 G Hold			Track8																
+Map	Gate Release		Channel 8 G Release			Track8																
+Map	Punch		Channel 8 G Threshold			Track8																
+Map	Gate Gain Reduction		Channel 8 Gate Gain Reduction			Track8																
+Map	EQ On		Channel 8 EQ On			Track8																
+Map	Low Shape		Channel 8 LF Bell			Track8																
+Map	High Shape		Channel 8 HF Bell			Track8																
+Map	High Gain		Channel 8 HF Gain			Track8																
+Map	High Frequency		Channel 8 HF Frequency			Track8																
+Map	High Mid Gain		Channel 8 HMF Gain			Track8																
+Map	High Mid Frequency		Channel 8 HMF Frequency			Track8																
+Map	High Mid Q		Channel 8 HMF Q			Track8																
+Map	Low Mid Gain		Channel 8 LMF Gain			Track8																
+Map	Low Mid Frequency		Channel 8 LMF Frequency			Track8																
+Map	Low Mid Q		Channel 8 LMF Q			Track8																
+Map	Low Gain		Channel 8 LF Gain			Track8																
+Map	Low Frequency		Channel 8 LF Frequency			Track8																
+Map	Compressor On		Channel 8 Comp On			Track8																
+Map	Compressor Threshold		Channel 8 C Threshold			Track8																
+Map	Compressor Release		Channel 8 C Release			Track8																
+Map	Compressor Ratio		Channel 8 C Ratio			Track8																
+Map	Compressor Attack		Channel 8 C Fast Atk			Track8																
+Map	Compressor Gain Reduction		Channel 8 Comp Gain Reduction			Track8																
+Map	Mute		Channel 8 Mute			Track8																
+Map	Solo		Channel 8 Solo			Track8																
+Map	Volume		Channel 8 Level			Track8																
+Map	Pan		Channel 8 Pan			Track8																
+Map	Character		Channel 8 Width			Track8																
+Map	Output Meter L		Channel 8 VU Meter L			Track8																
+Map	Output Meter R		Channel 8 VU Meter R			Track8																
+Map	Display Mode		Channel 8 LPF On			Track8																
+Map	Display On		Channel 8 HPF On			Track8																
+//TRACK 9						Track9																
+Map	Order		Channel 9 Insert Pre			Track9																
+Map	External Sidechain		Channel 9 Dyn Post EQ			Track9																
+Map	Filters to Compressor		Channel 9 Filters Dyn S/C			Track9																
+Map	Phase Invert		Channel 9 Invert Phase			Track9																
+Map	Low Cut		Channel 9 HPF Frequency			Track9																
+Map	High Cut		Channel 9 LPF Frequency			Track9																
+Map	Input Gain		Channel 9 Input Gain			Track9																
+Map	Peak Input Meter		Channel 9 To Insert FX Peak Meter			Track9																
+Map	Peak Output Meter		Channel 9 From Insert FX Peak Meter			Track9																
+Map	Gate On		Channel 9 Gate On			Track9																
+Map	Hard Gate		Channel 9 G Fast Atk			Track9																
+Map	Gate		Channel 9 G Range			Track9																
+Map	Sustain		Channel 9 G Hold			Track9																
+Map	Gate Release		Channel 9 G Release			Track9																
+Map	Punch		Channel 9 G Threshold			Track9																
+Map	Gate Gain Reduction		Channel 9 Gate Gain Reduction			Track9																
+Map	EQ On		Channel 9 EQ On			Track9																
+Map	Low Shape		Channel 9 LF Bell			Track9																
+Map	High Shape		Channel 9 HF Bell			Track9																
+Map	High Gain		Channel 9 HF Gain			Track9																
+Map	High Frequency		Channel 9 HF Frequency			Track9																
+Map	High Mid Gain		Channel 9 HMF Gain			Track9																
+Map	High Mid Frequency		Channel 9 HMF Frequency			Track9																
+Map	High Mid Q		Channel 9 HMF Q			Track9																
+Map	Low Mid Gain		Channel 9 LMF Gain			Track9																
+Map	Low Mid Frequency		Channel 9 LMF Frequency			Track9																
+Map	Low Mid Q		Channel 9 LMF Q			Track9																
+Map	Low Gain		Channel 9 LF Gain			Track9																
+Map	Low Frequency		Channel 9 LF Frequency			Track9																
+Map	Compressor On		Channel 9 Comp On			Track9																
+Map	Compressor Threshold		Channel 9 C Threshold			Track9																
+Map	Compressor Release		Channel 9 C Release			Track9																
+Map	Compressor Ratio		Channel 9 C Ratio			Track9																
+Map	Compressor Attack		Channel 9 C Fast Atk			Track9																
+Map	Compressor Gain Reduction		Channel 9 Comp Gain Reduction			Track9																
+Map	Mute		Channel 9 Mute			Track9																
+Map	Solo		Channel 9 Solo			Track9																
+Map	Volume		Channel 9 Level			Track9																
+Map	Pan		Channel 9 Pan			Track9																
+Map	Character		Channel 9 Width			Track9																
+Map	Output Meter L		Channel 9 VU Meter L			Track9																
+Map	Output Meter R		Channel 9 VU Meter R			Track9																
+Map	Display Mode		Channel 9 LPF On			Track9																
+Map	Display On		Channel 9 HPF On			Track9																
+//TRACK 10						Track10																
+Map	Order		Channel 10 Insert Pre			Track10																
+Map	External Sidechain		Channel 10 Dyn Post EQ			Track10																
+Map	Filters to Compressor		Channel 10 Filters Dyn S/C			Track10																
+Map	Phase Invert		Channel 10 Invert Phase			Track10																
+Map	Low Cut		Channel 10 HPF Frequency			Track10																
+Map	High Cut		Channel 10 LPF Frequency			Track10																
+Map	Input Gain		Channel 10 Input Gain			Track10																
+Map	Peak Input Meter		Channel 10 To Insert FX Peak Meter			Track10																
+Map	Peak Output Meter		Channel 10 From Insert FX Peak Meter			Track10																
+Map	Gate On		Channel 10 Gate On			Track10																
+Map	Hard Gate		Channel 10 G Fast Atk			Track10																
+Map	Gate		Channel 10 G Range			Track10																
+Map	Sustain		Channel 10 G Hold			Track10																
+Map	Gate Release		Channel 10 G Release			Track10																
+Map	Punch		Channel 10 G Threshold			Track10																
+Map	Gate Gain Reduction		Channel 10 Gate Gain Reduction			Track10																
+Map	EQ On		Channel 10 EQ On			Track10																
+Map	Low Shape		Channel 10 LF Bell			Track10																
+Map	High Shape		Channel 10 HF Bell			Track10																
+Map	High Gain		Channel 10 HF Gain			Track10																
+Map	High Frequency		Channel 10 HF Frequency			Track10																
+Map	High Mid Gain		Channel 10 HMF Gain			Track10																
+Map	High Mid Frequency		Channel 10 HMF Frequency			Track10																
+Map	High Mid Q		Channel 10 HMF Q			Track10																
+Map	Low Mid Gain		Channel 10 LMF Gain			Track10																
+Map	Low Mid Frequency		Channel 10 LMF Frequency			Track10																
+Map	Low Mid Q		Channel 10 LMF Q			Track10																
+Map	Low Gain		Channel 10 LF Gain			Track10																
+Map	Low Frequency		Channel 10 LF Frequency			Track10																
+Map	Compressor On		Channel 10 Comp On			Track10																
+Map	Compressor Threshold		Channel 10 C Threshold			Track10																
+Map	Compressor Release		Channel 10 C Release			Track10																
+Map	Compressor Ratio		Channel 10 C Ratio			Track10																
+Map	Compressor Attack		Channel 10 C Fast Atk			Track10																
+Map	Compressor Gain Reduction		Channel 10 Comp Gain Reduction			Track10																
+Map	Mute		Channel 10 Mute			Track10																
+Map	Solo		Channel 10 Solo			Track10																
+Map	Volume		Channel 10 Level			Track10																
+Map	Pan		Channel 10 Pan			Track10																
+Map	Character		Channel 10 Width			Track10																
+Map	Output Meter L		Channel 10 VU Meter L			Track10																
+Map	Output Meter R		Channel 10 VU Meter R			Track10																
+Map	Display Mode		Channel 10 LPF On			Track10																
+Map	Display On		Channel 10 HPF On			Track10																
+//TRACK 11						Track11																
+Map	Order		Channel 11 Insert Pre			Track11																
+Map	External Sidechain		Channel 11 Dyn Post EQ			Track11																
+Map	Filters to Compressor		Channel 11 Filters Dyn S/C			Track11																
+Map	Phase Invert		Channel 11 Invert Phase			Track11																
+Map	Low Cut		Channel 11 HPF Frequency			Track11																
+Map	High Cut		Channel 11 LPF Frequency			Track11																
+Map	Input Gain		Channel 11 Input Gain			Track11																
+Map	Peak Input Meter		Channel 11 To Insert FX Peak Meter			Track11																
+Map	Peak Output Meter		Channel 11 From Insert FX Peak Meter			Track11																
+Map	Gate On		Channel 11 Gate On			Track11																
+Map	Hard Gate		Channel 11 G Fast Atk			Track11																
+Map	Gate		Channel 11 G Range			Track11																
+Map	Sustain		Channel 11 G Hold			Track11																
+Map	Gate Release		Channel 11 G Release			Track11																
+Map	Punch		Channel 11 G Threshold			Track11																
+Map	Gate Gain Reduction		Channel 11 Gate Gain Reduction			Track11																
+Map	EQ On		Channel 11 EQ On			Track11																
+Map	Low Shape		Channel 11 LF Bell			Track11																
+Map	High Shape		Channel 11 HF Bell			Track11																
+Map	High Gain		Channel 11 HF Gain			Track11																
+Map	High Frequency		Channel 11 HF Frequency			Track11																
+Map	High Mid Gain		Channel 11 HMF Gain			Track11																
+Map	High Mid Frequency		Channel 11 HMF Frequency			Track11																
+Map	High Mid Q		Channel 11 HMF Q			Track11																
+Map	Low Mid Gain		Channel 11 LMF Gain			Track11																
+Map	Low Mid Frequency		Channel 11 LMF Frequency			Track11																
+Map	Low Mid Q		Channel 11 LMF Q			Track11																
+Map	Low Gain		Channel 11 LF Gain			Track11																
+Map	Low Frequency		Channel 11 LF Frequency			Track11																
+Map	Compressor On		Channel 11 Comp On			Track11																
+Map	Compressor Threshold		Channel 11 C Threshold			Track11																
+Map	Compressor Release		Channel 11 C Release			Track11																
+Map	Compressor Ratio		Channel 11 C Ratio			Track11																
+Map	Compressor Attack		Channel 11 C Fast Atk			Track11																
+Map	Compressor Gain Reduction		Channel 11 Comp Gain Reduction			Track11																
+Map	Mute		Channel 11 Mute			Track11																
+Map	Solo		Channel 11 Solo			Track11																
+Map	Volume		Channel 11 Level			Track11																
+Map	Pan		Channel 11 Pan			Track11																
+Map	Character		Channel 11 Width			Track11																
+Map	Output Meter L		Channel 11 VU Meter L			Track11																
+Map	Output Meter R		Channel 11 VU Meter R			Track11																
+Map	Display Mode		Channel 11 LPF On			Track11																
+Map	Display On		Channel 11 HPF On			Track11																
+//TRACK 12						Track12																
+Map	Order		Channel 12 Insert Pre			Track12																
+Map	External Sidechain		Channel 12 Dyn Post EQ			Track12																
+Map	Filters to Compressor		Channel 12 Filters Dyn S/C			Track12																
+Map	Phase Invert		Channel 12 Invert Phase			Track12																
+Map	Low Cut		Channel 12 HPF Frequency			Track12																
+Map	High Cut		Channel 12 LPF Frequency			Track12																
+Map	Input Gain		Channel 12 Input Gain			Track12																
+Map	Peak Input Meter		Channel 12 To Insert FX Peak Meter			Track12																
+Map	Peak Output Meter		Channel 12 From Insert FX Peak Meter			Track12																
+Map	Gate On		Channel 12 Gate On			Track12																
+Map	Hard Gate		Channel 12 G Fast Atk			Track12																
+Map	Gate		Channel 12 G Range			Track12																
+Map	Sustain		Channel 12 G Hold			Track12																
+Map	Gate Release		Channel 12 G Release			Track12																
+Map	Punch		Channel 12 G Threshold			Track12																
+Map	Gate Gain Reduction		Channel 12 Gate Gain Reduction			Track12																
+Map	EQ On		Channel 12 EQ On			Track12																
+Map	Low Shape		Channel 12 LF Bell			Track12																
+Map	High Shape		Channel 12 HF Bell			Track12																
+Map	High Gain		Channel 12 HF Gain			Track12																
+Map	High Frequency		Channel 12 HF Frequency			Track12																
+Map	High Mid Gain		Channel 12 HMF Gain			Track12																
+Map	High Mid Frequency		Channel 12 HMF Frequency			Track12																
+Map	High Mid Q		Channel 12 HMF Q			Track12																
+Map	Low Mid Gain		Channel 12 LMF Gain			Track12																
+Map	Low Mid Frequency		Channel 12 LMF Frequency			Track12																
+Map	Low Mid Q		Channel 12 LMF Q			Track12																
+Map	Low Gain		Channel 12 LF Gain			Track12																
+Map	Low Frequency		Channel 12 LF Frequency			Track12																
+Map	Compressor On		Channel 12 Comp On			Track12																
+Map	Compressor Threshold		Channel 12 C Threshold			Track12																
+Map	Compressor Release		Channel 12 C Release			Track12																
+Map	Compressor Ratio		Channel 12 C Ratio			Track12																
+Map	Compressor Attack		Channel 12 C Fast Atk			Track12																
+Map	Compressor Gain Reduction		Channel 12 Comp Gain Reduction			Track12																
+Map	Mute		Channel 12 Mute			Track12																
+Map	Solo		Channel 12 Solo			Track12																
+Map	Volume		Channel 12 Level			Track12																
+Map	Pan		Channel 12 Pan			Track12																
+Map	Character		Channel 12 Width			Track12																
+Map	Output Meter L		Channel 12 VU Meter L			Track12																
+Map	Output Meter R		Channel 12 VU Meter R			Track12																
+Map	Display Mode		Channel 12 LPF On			Track12																
+Map	Display On		Channel 12 HPF On			Track12																
+//TRACK 13						Track13																
+Map	Order		Channel 13 Insert Pre			Track13																
+Map	External Sidechain		Channel 13 Dyn Post EQ			Track13																
+Map	Filters to Compressor		Channel 13 Filters Dyn S/C			Track13																
+Map	Phase Invert		Channel 13 Invert Phase			Track13																
+Map	Low Cut		Channel 13 HPF Frequency			Track13																
+Map	High Cut		Channel 13 LPF Frequency			Track13																
+Map	Input Gain		Channel 13 Input Gain			Track13																
+Map	Peak Input Meter		Channel 13 To Insert FX Peak Meter			Track13																
+Map	Peak Output Meter		Channel 13 From Insert FX Peak Meter			Track13																
+Map	Gate On		Channel 13 Gate On			Track13																
+Map	Hard Gate		Channel 13 G Fast Atk			Track13																
+Map	Gate		Channel 13 G Range			Track13																
+Map	Sustain		Channel 13 G Hold			Track13																
+Map	Gate Release		Channel 13 G Release			Track13																
+Map	Punch		Channel 13 G Threshold			Track13																
+Map	Gate Gain Reduction		Channel 13 Gate Gain Reduction			Track13																
+Map	EQ On		Channel 13 EQ On			Track13																
+Map	Low Shape		Channel 13 LF Bell			Track13																
+Map	High Shape		Channel 13 HF Bell			Track13																
+Map	High Gain		Channel 13 HF Gain			Track13																
+Map	High Frequency		Channel 13 HF Frequency			Track13																
+Map	High Mid Gain		Channel 13 HMF Gain			Track13																
+Map	High Mid Frequency		Channel 13 HMF Frequency			Track13																
+Map	High Mid Q		Channel 13 HMF Q			Track13																
+Map	Low Mid Gain		Channel 13 LMF Gain			Track13																
+Map	Low Mid Frequency		Channel 13 LMF Frequency			Track13																
+Map	Low Mid Q		Channel 13 LMF Q			Track13																
+Map	Low Gain		Channel 13 LF Gain			Track13																
+Map	Low Frequency		Channel 13 LF Frequency			Track13																
+Map	Compressor On		Channel 13 Comp On			Track13																
+Map	Compressor Threshold		Channel 13 C Threshold			Track13																
+Map	Compressor Release		Channel 13 C Release			Track13																
+Map	Compressor Ratio		Channel 13 C Ratio			Track13																
+Map	Compressor Attack		Channel 13 C Fast Atk			Track13																
+Map	Compressor Gain Reduction		Channel 13 Comp Gain Reduction			Track13																
+Map	Mute		Channel 13 Mute			Track13																
+Map	Solo		Channel 13 Solo			Track13																
+Map	Volume		Channel 13 Level			Track13																
+Map	Pan		Channel 13 Pan			Track13																
+Map	Character		Channel 13 Width			Track13																
+Map	Output Meter L		Channel 13 VU Meter L			Track13																
+Map	Output Meter R		Channel 13 VU Meter R			Track13																
+Map	Display Mode		Channel 13 LPF On			Track13																
+Map	Display On		Channel 13 HPF On			Track13																
+//TRACK 14						Track14																
+Map	Order		Channel 14 Insert Pre			Track14																
+Map	External Sidechain		Channel 14 Dyn Post EQ			Track14																
+Map	Filters to Compressor		Channel 14 Filters Dyn S/C			Track14																
+Map	Phase Invert		Channel 14 Invert Phase			Track14																
+Map	Low Cut		Channel 14 HPF Frequency			Track14																
+Map	High Cut		Channel 14 LPF Frequency			Track14																
+Map	Input Gain		Channel 14 Input Gain			Track14																
+Map	Peak Input Meter		Channel 14 To Insert FX Peak Meter			Track14																
+Map	Peak Output Meter		Channel 14 From Insert FX Peak Meter			Track14																
+Map	Gate On		Channel 14 Gate On			Track14																
+Map	Hard Gate		Channel 14 G Fast Atk			Track14																
+Map	Gate		Channel 14 G Range			Track14																
+Map	Sustain		Channel 14 G Hold			Track14																
+Map	Gate Release		Channel 14 G Release			Track14																
+Map	Punch		Channel 14 G Threshold			Track14																
+Map	Gate Gain Reduction		Channel 14 Gate Gain Reduction			Track14																
+Map	EQ On		Channel 14 EQ On			Track14																
+Map	Low Shape		Channel 14 LF Bell			Track14																
+Map	High Shape		Channel 14 HF Bell			Track14																
+Map	High Gain		Channel 14 HF Gain			Track14																
+Map	High Frequency		Channel 14 HF Frequency			Track14																
+Map	High Mid Gain		Channel 14 HMF Gain			Track14																
+Map	High Mid Frequency		Channel 14 HMF Frequency			Track14																
+Map	High Mid Q		Channel 14 HMF Q			Track14																
+Map	Low Mid Gain		Channel 14 LMF Gain			Track14																
+Map	Low Mid Frequency		Channel 14 LMF Frequency			Track14																
+Map	Low Mid Q		Channel 14 LMF Q			Track14																
+Map	Low Gain		Channel 14 LF Gain			Track14																
+Map	Low Frequency		Channel 14 LF Frequency			Track14																
+Map	Compressor On		Channel 14 Comp On			Track14																
+Map	Compressor Threshold		Channel 14 C Threshold			Track14																
+Map	Compressor Release		Channel 14 C Release			Track14																
+Map	Compressor Ratio		Channel 14 C Ratio			Track14																
+Map	Compressor Attack		Channel 14 C Fast Atk			Track14																
+Map	Compressor Gain Reduction		Channel 14 Comp Gain Reduction			Track14																
+Map	Mute		Channel 14 Mute			Track14																
+Map	Solo		Channel 14 Solo			Track14																
+Map	Volume		Channel 14 Level			Track14																
+Map	Pan		Channel 14 Pan			Track14																
+Map	Character		Channel 14 Width			Track14																
+Map	Output Meter L		Channel 14 VU Meter L			Track14																
+Map	Output Meter R		Channel 14 VU Meter R			Track14																
+Map	Display Mode		Channel 14 LPF On			Track14																
+Map	Display On		Channel 14 HPF On			Track14																
+//TRACK 15						Track15																
+Map	Order		Channel 15 Insert Pre			Track15																
+Map	External Sidechain		Channel 15 Dyn Post EQ			Track15																
+Map	Filters to Compressor		Channel 15 Filters Dyn S/C			Track15																
+Map	Phase Invert		Channel 15 Invert Phase			Track15																
+Map	Low Cut		Channel 15 HPF Frequency			Track15																
+Map	High Cut		Channel 15 LPF Frequency			Track15																
+Map	Input Gain		Channel 15 Input Gain			Track15																
+Map	Peak Input Meter		Channel 15 To Insert FX Peak Meter			Track15																
+Map	Peak Output Meter		Channel 15 From Insert FX Peak Meter			Track15																
+Map	Gate On		Channel 15 Gate On			Track15																
+Map	Hard Gate		Channel 15 G Fast Atk			Track15																
+Map	Gate		Channel 15 G Range			Track15																
+Map	Sustain		Channel 15 G Hold			Track15																
+Map	Gate Release		Channel 15 G Release			Track15																
+Map	Punch		Channel 15 G Threshold			Track15																
+Map	Gate Gain Reduction		Channel 15 Gate Gain Reduction			Track15																
+Map	EQ On		Channel 15 EQ On			Track15																
+Map	Low Shape		Channel 15 LF Bell			Track15																
+Map	High Shape		Channel 15 HF Bell			Track15																
+Map	High Gain		Channel 15 HF Gain			Track15																
+Map	High Frequency		Channel 15 HF Frequency			Track15																
+Map	High Mid Gain		Channel 15 HMF Gain			Track15																
+Map	High Mid Frequency		Channel 15 HMF Frequency			Track15																
+Map	High Mid Q		Channel 15 HMF Q			Track15																
+Map	Low Mid Gain		Channel 15 LMF Gain			Track15																
+Map	Low Mid Frequency		Channel 15 LMF Frequency			Track15																
+Map	Low Mid Q		Channel 15 LMF Q			Track15																
+Map	Low Gain		Channel 15 LF Gain			Track15																
+Map	Low Frequency		Channel 15 LF Frequency			Track15																
+Map	Compressor On		Channel 15 Comp On			Track15																
+Map	Compressor Threshold		Channel 15 C Threshold			Track15																
+Map	Compressor Release		Channel 15 C Release			Track15																
+Map	Compressor Ratio		Channel 15 C Ratio			Track15																
+Map	Compressor Attack		Channel 15 C Fast Atk			Track15																
+Map	Compressor Gain Reduction		Channel 15 Comp Gain Reduction			Track15																
+Map	Mute		Channel 15 Mute			Track15																
+Map	Solo		Channel 15 Solo			Track15																
+Map	Volume		Channel 15 Level			Track15																
+Map	Pan		Channel 15 Pan			Track15																
+Map	Character		Channel 15 Width			Track15																
+Map	Output Meter L		Channel 15 VU Meter L			Track15																
+Map	Output Meter R		Channel 15 VU Meter R			Track15																
+Map	Display Mode		Channel 15 LPF On			Track15																
+Map	Display On		Channel 15 HPF On			Track15																
+//TRACK 16						Track16																
+Map	Order		Channel 16 Insert Pre			Track16																
+Map	External Sidechain		Channel 16 Dyn Post EQ			Track16																
+Map	Filters to Compressor		Channel 16 Filters Dyn S/C			Track16																
+Map	Phase Invert		Channel 16 Invert Phase			Track16																
+Map	Low Cut		Channel 16 HPF Frequency			Track16																
+Map	High Cut		Channel 16 LPF Frequency			Track16																
+Map	Input Gain		Channel 16 Input Gain			Track16																
+Map	Peak Input Meter		Channel 16 To Insert FX Peak Meter			Track16																
+Map	Peak Output Meter		Channel 16 From Insert FX Peak Meter			Track16																
+Map	Gate On		Channel 16 Gate On			Track16																
+Map	Hard Gate		Channel 16 G Fast Atk			Track16																
+Map	Gate		Channel 16 G Range			Track16																
+Map	Sustain		Channel 16 G Hold			Track16																
+Map	Gate Release		Channel 16 G Release			Track16																
+Map	Punch		Channel 16 G Threshold			Track16																
+Map	Gate Gain Reduction		Channel 16 Gate Gain Reduction			Track16																
+Map	EQ On		Channel 16 EQ On			Track16																
+Map	Low Shape		Channel 16 LF Bell			Track16																
+Map	High Shape		Channel 16 HF Bell			Track16																
+Map	High Gain		Channel 16 HF Gain			Track16																
+Map	High Frequency		Channel 16 HF Frequency			Track16																
+Map	High Mid Gain		Channel 16 HMF Gain			Track16																
+Map	High Mid Frequency		Channel 16 HMF Frequency			Track16																
+Map	High Mid Q		Channel 16 HMF Q			Track16																
+Map	Low Mid Gain		Channel 16 LMF Gain			Track16																
+Map	Low Mid Frequency		Channel 16 LMF Frequency			Track16																
+Map	Low Mid Q		Channel 16 LMF Q			Track16																
+Map	Low Gain		Channel 16 LF Gain			Track16																
+Map	Low Frequency		Channel 16 LF Frequency			Track16																
+Map	Compressor On		Channel 16 Comp On			Track16																
+Map	Compressor Threshold		Channel 16 C Threshold			Track16																
+Map	Compressor Release		Channel 16 C Release			Track16																
+Map	Compressor Ratio		Channel 16 C Ratio			Track16																
+Map	Compressor Attack		Channel 16 C Fast Atk			Track16																
+Map	Compressor Gain Reduction		Channel 16 Comp Gain Reduction			Track16																
+Map	Mute		Channel 16 Mute			Track16																
+Map	Solo		Channel 16 Solo			Track16																
+Map	Volume		Channel 16 Level			Track16																
+Map	Pan		Channel 16 Pan			Track16																
+Map	Character		Channel 16 Width			Track16																
+Map	Output Meter L		Channel 16 VU Meter L			Track16																
+Map	Output Meter R		Channel 16 VU Meter R			Track16																
+Map	Display Mode		Channel 16 LPF On			Track16																
+Map	Display On		Channel 16 HPF On			Track16																
+//TRACK 17						Track17																
+Map	Order		Channel 17 Insert Pre			Track17																
+Map	External Sidechain		Channel 17 Dyn Post EQ			Track17																
+Map	Filters to Compressor		Channel 17 Filters Dyn S/C			Track17																
+Map	Phase Invert		Channel 17 Invert Phase			Track17																
+Map	Low Cut		Channel 17 HPF Frequency			Track17																
+Map	High Cut		Channel 17 LPF Frequency			Track17																
+Map	Input Gain		Channel 17 Input Gain			Track17																
+Map	Peak Input Meter		Channel 17 To Insert FX Peak Meter			Track17																
+Map	Peak Output Meter		Channel 17 From Insert FX Peak Meter			Track17																
+Map	Gate On		Channel 17 Gate On			Track17																
+Map	Hard Gate		Channel 17 G Fast Atk			Track17																
+Map	Gate		Channel 17 G Range			Track17																
+Map	Sustain		Channel 17 G Hold			Track17																
+Map	Gate Release		Channel 17 G Release			Track17																
+Map	Punch		Channel 17 G Threshold			Track17																
+Map	Gate Gain Reduction		Channel 17 Gate Gain Reduction			Track17																
+Map	EQ On		Channel 17 EQ On			Track17																
+Map	Low Shape		Channel 17 LF Bell			Track17																
+Map	High Shape		Channel 17 HF Bell			Track17																
+Map	High Gain		Channel 17 HF Gain			Track17																
+Map	High Frequency		Channel 17 HF Frequency			Track17																
+Map	High Mid Gain		Channel 17 HMF Gain			Track17																
+Map	High Mid Frequency		Channel 17 HMF Frequency			Track17																
+Map	High Mid Q		Channel 17 HMF Q			Track17																
+Map	Low Mid Gain		Channel 17 LMF Gain			Track17																
+Map	Low Mid Frequency		Channel 17 LMF Frequency			Track17																
+Map	Low Mid Q		Channel 17 LMF Q			Track17																
+Map	Low Gain		Channel 17 LF Gain			Track17																
+Map	Low Frequency		Channel 17 LF Frequency			Track17																
+Map	Compressor On		Channel 17 Comp On			Track17																
+Map	Compressor Threshold		Channel 17 C Threshold			Track17																
+Map	Compressor Release		Channel 17 C Release			Track17																
+Map	Compressor Ratio		Channel 17 C Ratio			Track17																
+Map	Compressor Attack		Channel 17 C Fast Atk			Track17																
+Map	Compressor Gain Reduction		Channel 17 Comp Gain Reduction			Track17																
+Map	Mute		Channel 17 Mute			Track17																
+Map	Solo		Channel 17 Solo			Track17																
+Map	Volume		Channel 17 Level			Track17																
+Map	Pan		Channel 17 Pan			Track17																
+Map	Character		Channel 17 Width			Track17																
+Map	Output Meter L		Channel 17 VU Meter L			Track17																
+Map	Output Meter R		Channel 17 VU Meter R			Track17																
+Map	Display Mode		Channel 17 LPF On			Track17																
+Map	Display On		Channel 17 HPF On			Track17																
+//TRACK 18						Track18																
+Map	Order		Channel 18 Insert Pre			Track18																
+Map	External Sidechain		Channel 18 Dyn Post EQ			Track18																
+Map	Filters to Compressor		Channel 18 Filters Dyn S/C			Track18																
+Map	Phase Invert		Channel 18 Invert Phase			Track18																
+Map	Low Cut		Channel 18 HPF Frequency			Track18																
+Map	High Cut		Channel 18 LPF Frequency			Track18																
+Map	Input Gain		Channel 18 Input Gain			Track18																
+Map	Peak Input Meter		Channel 18 To Insert FX Peak Meter			Track18																
+Map	Peak Output Meter		Channel 18 From Insert FX Peak Meter			Track18																
+Map	Gate On		Channel 18 Gate On			Track18																
+Map	Hard Gate		Channel 18 G Fast Atk			Track18																
+Map	Gate		Channel 18 G Range			Track18																
+Map	Sustain		Channel 18 G Hold			Track18																
+Map	Gate Release		Channel 18 G Release			Track18																
+Map	Punch		Channel 18 G Threshold			Track18																
+Map	Gate Gain Reduction		Channel 18 Gate Gain Reduction			Track18																
+Map	EQ On		Channel 18 EQ On			Track18																
+Map	Low Shape		Channel 18 LF Bell			Track18																
+Map	High Shape		Channel 18 HF Bell			Track18																
+Map	High Gain		Channel 18 HF Gain			Track18																
+Map	High Frequency		Channel 18 HF Frequency			Track18																
+Map	High Mid Gain		Channel 18 HMF Gain			Track18																
+Map	High Mid Frequency		Channel 18 HMF Frequency			Track18																
+Map	High Mid Q		Channel 18 HMF Q			Track18																
+Map	Low Mid Gain		Channel 18 LMF Gain			Track18																
+Map	Low Mid Frequency		Channel 18 LMF Frequency			Track18																
+Map	Low Mid Q		Channel 18 LMF Q			Track18																
+Map	Low Gain		Channel 18 LF Gain			Track18																
+Map	Low Frequency		Channel 18 LF Frequency			Track18																
+Map	Compressor On		Channel 18 Comp On			Track18																
+Map	Compressor Threshold		Channel 18 C Threshold			Track18																
+Map	Compressor Release		Channel 18 C Release			Track18																
+Map	Compressor Ratio		Channel 18 C Ratio			Track18																
+Map	Compressor Attack		Channel 18 C Fast Atk			Track18																
+Map	Compressor Gain Reduction		Channel 18 Comp Gain Reduction			Track18																
+Map	Mute		Channel 18 Mute			Track18																
+Map	Solo		Channel 18 Solo			Track18																
+Map	Volume		Channel 18 Level			Track18																
+Map	Pan		Channel 18 Pan			Track18																
+Map	Character		Channel 18 Width			Track18																
+Map	Output Meter L		Channel 18 VU Meter L			Track18																
+Map	Output Meter R		Channel 18 VU Meter R			Track18																
+Map	Display Mode		Channel 18 LPF On			Track18																
+Map	Display On		Channel 18 HPF On			Track18																
+//TRACK 19						Track19																
+Map	Order		Channel 19 Insert Pre			Track19																
+Map	External Sidechain		Channel 19 Dyn Post EQ			Track19																
+Map	Filters to Compressor		Channel 19 Filters Dyn S/C			Track19																
+Map	Phase Invert		Channel 19 Invert Phase			Track19																
+Map	Low Cut		Channel 19 HPF Frequency			Track19																
+Map	High Cut		Channel 19 LPF Frequency			Track19																
+Map	Input Gain		Channel 19 Input Gain			Track19																
+Map	Peak Input Meter		Channel 19 To Insert FX Peak Meter			Track19																
+Map	Peak Output Meter		Channel 19 From Insert FX Peak Meter			Track19																
+Map	Gate On		Channel 19 Gate On			Track19																
+Map	Hard Gate		Channel 19 G Fast Atk			Track19																
+Map	Gate		Channel 19 G Range			Track19																
+Map	Sustain		Channel 19 G Hold			Track19																
+Map	Gate Release		Channel 19 G Release			Track19																
+Map	Punch		Channel 19 G Threshold			Track19																
+Map	Gate Gain Reduction		Channel 19 Gate Gain Reduction			Track19																
+Map	EQ On		Channel 19 EQ On			Track19																
+Map	Low Shape		Channel 19 LF Bell			Track19																
+Map	High Shape		Channel 19 HF Bell			Track19																
+Map	High Gain		Channel 19 HF Gain			Track19																
+Map	High Frequency		Channel 19 HF Frequency			Track19																
+Map	High Mid Gain		Channel 19 HMF Gain			Track19																
+Map	High Mid Frequency		Channel 19 HMF Frequency			Track19																
+Map	High Mid Q		Channel 19 HMF Q			Track19																
+Map	Low Mid Gain		Channel 19 LMF Gain			Track19																
+Map	Low Mid Frequency		Channel 19 LMF Frequency			Track19																
+Map	Low Mid Q		Channel 19 LMF Q			Track19																
+Map	Low Gain		Channel 19 LF Gain			Track19																
+Map	Low Frequency		Channel 19 LF Frequency			Track19																
+Map	Compressor On		Channel 19 Comp On			Track19																
+Map	Compressor Threshold		Channel 19 C Threshold			Track19																
+Map	Compressor Release		Channel 19 C Release			Track19																
+Map	Compressor Ratio		Channel 19 C Ratio			Track19																
+Map	Compressor Attack		Channel 19 C Fast Atk			Track19																
+Map	Compressor Gain Reduction		Channel 19 Comp Gain Reduction			Track19																
+Map	Mute		Channel 19 Mute			Track19																
+Map	Solo		Channel 19 Solo			Track19																
+Map	Volume		Channel 19 Level			Track19																
+Map	Pan		Channel 19 Pan			Track19																
+Map	Character		Channel 19 Width			Track19																
+Map	Output Meter L		Channel 19 VU Meter L			Track19																
+Map	Output Meter R		Channel 19 VU Meter R			Track19																
+Map	Display Mode		Channel 19 LPF On			Track19																
+Map	Display On		Channel 19 HPF On			Track19																
+//TRACK 20						Track20																
+Map	Order		Channel 20 Insert Pre			Track20																
+Map	External Sidechain		Channel 20 Dyn Post EQ			Track20																
+Map	Filters to Compressor		Channel 20 Filters Dyn S/C			Track20																
+Map	Phase Invert		Channel 20 Invert Phase			Track20																
+Map	Low Cut		Channel 20 HPF Frequency			Track20																
+Map	High Cut		Channel 20 LPF Frequency			Track20																
+Map	Input Gain		Channel 20 Input Gain			Track20																
+Map	Peak Input Meter		Channel 20 To Insert FX Peak Meter			Track20																
+Map	Peak Output Meter		Channel 20 From Insert FX Peak Meter			Track20																
+Map	Gate On		Channel 20 Gate On			Track20																
+Map	Hard Gate		Channel 20 G Fast Atk			Track20																
+Map	Gate		Channel 20 G Range			Track20																
+Map	Sustain		Channel 20 G Hold			Track20																
+Map	Gate Release		Channel 20 G Release			Track20																
+Map	Punch		Channel 20 G Threshold			Track20																
+Map	Gate Gain Reduction		Channel 20 Gate Gain Reduction			Track20																
+Map	EQ On		Channel 20 EQ On			Track20																
+Map	Low Shape		Channel 20 LF Bell			Track20																
+Map	High Shape		Channel 20 HF Bell			Track20																
+Map	High Gain		Channel 20 HF Gain			Track20																
+Map	High Frequency		Channel 20 HF Frequency			Track20																
+Map	High Mid Gain		Channel 20 HMF Gain			Track20																
+Map	High Mid Frequency		Channel 20 HMF Frequency			Track20																
+Map	High Mid Q		Channel 20 HMF Q			Track20																
+Map	Low Mid Gain		Channel 20 LMF Gain			Track20																
+Map	Low Mid Frequency		Channel 20 LMF Frequency			Track20																
+Map	Low Mid Q		Channel 20 LMF Q			Track20																
+Map	Low Gain		Channel 20 LF Gain			Track20																
+Map	Low Frequency		Channel 20 LF Frequency			Track20																
+Map	Compressor On		Channel 20 Comp On			Track20																
+Map	Compressor Threshold		Channel 20 C Threshold			Track20																
+Map	Compressor Release		Channel 20 C Release			Track20																
+Map	Compressor Ratio		Channel 20 C Ratio			Track20																
+Map	Compressor Attack		Channel 20 C Fast Atk			Track20																
+Map	Compressor Gain Reduction		Channel 20 Comp Gain Reduction			Track20																
+Map	Mute		Channel 20 Mute			Track20																
+Map	Solo		Channel 20 Solo			Track20																
+Map	Volume		Channel 20 Level			Track20																
+Map	Pan		Channel 20 Pan			Track20																
+Map	Character		Channel 20 Width			Track20																
+Map	Output Meter L		Channel 20 VU Meter L			Track20																
+Map	Output Meter R		Channel 20 VU Meter R			Track20																
+Map	Display Mode		Channel 20 LPF On			Track20																
+Map	Display On		Channel 20 HPF On			Track20																
+//MUTES						Mute																
+Map	Select Track 1		Channel 1 Mute			Mute																
+Map	Select Track 2		Channel 2 Mute			Mute																
+Map	Select Track 3		Channel 3 Mute			Mute																
+Map	Select Track 4		Channel 4 Mute			Mute																
+Map	Select Track 5		Channel 5 Mute			Mute																
+Map	Select Track 6		Channel 6 Mute			Mute																
+Map	Select Track 7		Channel 7 Mute			Mute																
+Map	Select Track 8		Channel 8 Mute			Mute																
+Map	Select Track 9		Channel 9 Mute			Mute																
+Map	Select Track 10		Channel 10 Mute			Mute																
+Map	Select Track 11		Channel 11 Mute			Mute																
+Map	Select Track 12		Channel 12 Mute			Mute																
+Map	Select Track 13		Channel 13 Mute			Mute																
+Map	Select Track 14		Channel 14 Mute			Mute																
+Map	Select Track 15		Channel 15 Mute			Mute																
+Map	Select Track 16		Channel 16 Mute			Mute																
+Map	Select Track 17		Channel 17 Mute			Mute																
+Map	Select Track 18		Channel 18 Mute			Mute																
+Map	Select Track 19		Channel 19 Mute			Mute																
+Map	Select Track 20		Channel 20 Mute			Mute																
+Map	Mute		All Mutes Off			Mute																
+Map	Solo		All Solo Off			Mute																

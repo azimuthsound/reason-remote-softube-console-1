@@ -1,0 +1,922 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Softube
+Control Surface Model	Console 1
+Map Version	0.1.0
+
+
+Scope	Propellerheads	Reason Document			
+
+Map	Preset		Undo
+
+
+Scope	Propellerheads	Reason Master Section
+
+//MUTES
+Define Group	Layer	MUTE	SOLO	EFFECTS	SELECT
+
+Map	Mute		Layer=MUTE
+Map	Solo		Layer=SOLO
+Map	Display Mode		Layer=EFFECTS
+Map	Display On		Layer=SELECT
+
+Map	Select Track 1		Channel 1 FX1 Send On			EFFECTS
+Map	Select Track 2		Channel 1 FX2 Send On			EFFECTS
+Map	Select Track 3		Channel 1 FX3 Send On			EFFECTS
+Map	Select Track 4		Channel 1 FX4 Send On			EFFECTS
+Map	Select Track 5		Channel 1 FX5 Send On			EFFECTS
+Map	Select Track 6		Channel 1 FX6 Send On			EFFECTS
+Map	Select Track 7		Channel 1 FX7 Send On			EFFECTS
+Map	Select Track 8		Channel 1 FX8 Send On			EFFECTS
+
+Map	Select Track 17		Channel 1 Button 1			EFFECTS
+Map	Select Track 18		Channel 1 Button 2			EFFECTS
+Map	Select Track 19		Channel 1 Button 3			EFFECTS
+Map	Select Track 20		Channel 1 Button 4			EFFECTS
+
+
+Map	Select Track 1		Channel 1 Mute			MUTE
+Map	Select Track 2		Channel 2 Mute			MUTE
+Map	Select Track 3		Channel 3 Mute			MUTE
+Map	Select Track 4		Channel 4 Mute			MUTE
+Map	Select Track 5		Channel 5 Mute			MUTE
+Map	Select Track 6		Channel 6 Mute			MUTE
+Map	Select Track 7		Channel 7 Mute			MUTE
+Map	Select Track 8		Channel 8 Mute			MUTE
+Map	Select Track 9		Channel 9 Mute			MUTE
+Map	Select Track 10		Channel 10 Mute			MUTE
+Map	Select Track 11		Channel 11 Mute			MUTE
+Map	Select Track 12		Channel 12 Mute			MUTE
+Map	Select Track 13		Channel 13 Mute			MUTE
+Map	Select Track 14		Channel 14 Mute			MUTE
+Map	Select Track 15		Channel 15 Mute			MUTE
+Map	Select Track 16		Channel 16 Mute			MUTE
+Map	Select Track 17		Channel 17 Mute			MUTE
+Map	Select Track 18		Channel 18 Mute			MUTE
+Map	Select Track 19		Channel 19 Mute			MUTE
+Map	Select Track 20		Channel 20 Mute			MUTE
+
+Map	Select Track 1		Channel 1 Solo			SOLO
+Map	Select Track 2		Channel 2 Solo			SOLO
+Map	Select Track 3		Channel 3 Solo			SOLO
+Map	Select Track 4		Channel 4 Solo			SOLO
+Map	Select Track 5		Channel 5 Solo			SOLO
+Map	Select Track 6		Channel 6 Solo			SOLO
+Map	Select Track 7		Channel 7 Solo			SOLO
+Map	Select Track 8		Channel 8 Solo			SOLO
+Map	Select Track 9		Channel 9 Solo			SOLO
+Map	Select Track 10		Channel 10 Solo			SOLO
+Map	Select Track 11		Channel 11 Solo			SOLO
+Map	Select Track 12		Channel 12 Solo			SOLO
+Map	Select Track 13		Channel 13 Solo			SOLO
+Map	Select Track 14		Channel 14 Solo			SOLO
+Map	Select Track 15		Channel 15 Solo			SOLO
+Map	Select Track 16		Channel 16 Solo			SOLO
+Map	Select Track 17		Channel 17 Solo			SOLO
+Map	Select Track 18		Channel 18 Solo			SOLO
+Map	Select Track 19		Channel 19 Solo			SOLO
+Map	Select Track 20		Channel 20 Solo			SOLO
+
+
+//	INPUT		_____________________
+//	Buttons
+// Map	Preset		
+Map	Filters to Compressor		Channel 1 Filters Dyn S/C
+Map	Filters to Compressor		Channel 1 Select Prev Insert FX Patch			EFFECTS
+Map	Phase Invert		Channel 1 Invert Phase
+Map	Phase Invert		Channel 1 Select Next Insert FX Patch			EFFECTS
+
+
+//	Rotaries
+Map	Low Cut		Channel 1 HPF Frequency
+Map	High Cut		Channel 1 LPF Frequency
+Map	Input Gain		Channel 1 Input Gain
+//	Meters
+Map	Peak Input Meter		Channel 1 To Insert FX Peak Meter
+Map	Peak Output Meter		Channel 1 From Insert FX Peak Meter
+
+
+
+//	SHAPE		_____________________
+//	Buttons
+Map	Gate On		Channel 1 Gate On			
+Map	Hard Gate		Channel 1 G Fast Atk			
+//	Rotaries
+Map	Gate		Channel 1 G Range			
+Map	Sustain		Channel 1 G Hold			
+Map	Gate Release		Channel 1 G Release			
+Map	Punch		Channel 1 G Threshold			
+//	Meters
+Map	Gate Gain Reduction		Channel 1 Gate Gain Reduction			
+//	NOT MAPPED
+// Map	XX		Channel 1 Expander
+
+
+//	SHAPE		_____________________
+//	Buttons
+Map	Gate On		Channel 1 Bypass Insert FX			EFFECTS
+// Map	Hard Gate		Channel 1 Bypass Insert FX			EFFECTS
+//	Rotaries
+Map	Gate		Channel 1 Rotary 1			EFFECTS
+Map	Sustain		Channel 1 Rotary 3			EFFECTS
+Map	Gate Release		Channel 1 Rotary 2			EFFECTS
+Map	Punch		Channel 1 Rotary 4			EFFECTS
+//	Meters
+Map	Gate Gain Reduction		Channel 1 Gate Gain Reduction			EFFECTS
+//	NOT MAPPED
+// Map	XX		Channel 1 Expander
+
+
+
+//	EQUALIZER	_____________________
+//	Buttons
+Map	EQ On		Channel 1 EQ On			
+Map	Low Shape		Channel 1 LF Bell			
+Map	High Shape		Channel 1 HF Bell			
+//	Rotaries
+Map	High Gain		Channel 1 HF Gain			
+Map	High Frequency		Channel 1 HF Frequency			
+Map	High Mid Gain		Channel 1 HMF Gain			
+Map	High Mid Frequency		Channel 1 HMF Frequency			
+Map	High Mid Q		Channel 1 HMF Q			
+Map	Low Mid Gain		Channel 1 LMF Gain			
+Map	Low Mid Frequency		Channel 1 LMF Frequency			
+Map	Low Mid Q		Channel 1 LMF Q			
+Map	Low Gain		Channel 1 LF Gain			
+Map	Low Frequency		Channel 1 LF Frequency			
+//	NOT MAPPED
+// Map	XX		Channel 1 EQ E Mode
+
+
+//	EQUALIZER	_____________________
+//	Buttons
+Map	EQ On		0			EFFECTS
+Map	Low Shape		0			EFFECTS
+Map	High Shape		0			EFFECTS
+//	Rotaries
+Map	High Gain		Channel 1 FX8 Send Level			EFFECTS
+Map	High Frequency		Channel 1 FX4 Send Level			EFFECTS
+Map	High Mid Gain		Channel 1 FX7 Send Level			EFFECTS
+Map	High Mid Frequency		Channel 1 FX3 Send Level			EFFECTS
+Map	High Mid Q		0			EFFECTS
+Map	Low Mid Gain		Channel 1 FX6 Send Level			EFFECTS
+Map	Low Mid Frequency		Channel 1 FX2 Send Level			EFFECTS
+Map	Low Mid Q		0			EFFECTS
+Map	Low Gain		Channel 1 FX5 Send Level			EFFECTS
+Map	Low Frequency		Channel 1 FX1 Send Level			EFFECTS
+//	NOT MAPPED
+// Map	XX		Channel 1 EQ E Mode
+
+
+
+//	COMPRESSOR	_____________________
+//	Buttons
+Map	Compressor On		Channel 1 Comp On
+//	Rotaries
+Map	Compressor Threshold		Channel 1 C Threshold
+Map	Compressor Release		Channel 1 C Release
+Map	Compressor Ratio		Channel 1 C Ratio
+// Map	Parallel Dry Wet		Channel 1 Rotary 1
+Map	Compressor Attack		Channel 1 C Fast Atk
+//	Meters
+Map	Compressor Gain Reduction		Channel 1 Comp Gain Reduction
+//	NOT MAPPED
+// Map	XX		Channel 1 Key On
+// Map	XX		Channel 1 C Peak
+
+
+
+//	OUTPUT		_____________________
+//	Buttons
+// Map	Mute		Channel 1 Mute
+// Map	Solo		Channel 1 Solo
+//	Rotaries
+Map	Volume		Channel 1 Level
+Map	Pan		Channel 1 Pan
+// Map	Drive		Channel 1 FX1 Send Level
+Map	Character		Channel 1 Width
+//	Meters
+Map	Output Meter L		Channel 1 VU Meter L
+Map	Output Meter R		Channel 1 VU Meter R
+
+
+//	INSERTS		_____________________
+//	NOT MAPPED
+// Map	XX		Channel 1 Inserts Connected
+
+
+// TRACK		_____________________
+// --	Track Buttons
+//Map	Track Copy		XX
+//Map	Track Group		XX
+// --	Page Buttons
+Map	Page Up		Next Remote Base Channel
+Map	Page Down		Previous Remote Base Channel
+// --	Order		
+Map	Order		Channel 1 Insert Pre
+Map	External Sidechain		Channel 1 Dyn Post EQ
+// --	External Sidechain
+
+
+
+Scope	Propellerheads	Reason Main Mixer Channel			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Preset		 Insert Pre		
+Map	Filters to Compressor		 Filters Dyn S/C		
+Map	Phase Invert		 Invert Phase		
+// Rotaries					
+Map	Low Cut		 HPF Frequency		
+Map	High Cut		 LPF Frequency		
+Map	Input Gain		 Input Gain		
+// Meters					
+Map	Peak Input Meter		 To Insert FX Peak Meter		
+Map	Peak Output Meter		 From Insert FX Peak Meter		
+// SHAPE			_____________________		
+// Buttons					
+Map	Gate On		 Gate On		
+Map	Hard Gate		 G Fast Atk		
+// Rotaries					
+Map	Gate		 G Range		
+Map	Sustain		 G Hold		
+Map	Gate Release		 G Release		
+Map	Punch		 G Threshold		
+// Meters					
+Map	Gate Gain Reduction		 Gate Gain Reduction		
+//Map	XX		 Expander		
+// EQUALIZER			_____________________		
+// Buttons					
+Map	EQ On		 EQ On		
+Map	Low Shape		 LF Bell		
+Map	High Shape		 HF Bell		
+// Rotaries					
+Map	High Gain		 HF Gain		
+Map	High Frequency		 HF Frequency		
+Map	High Mid Gain		 HMF Gain		
+Map	High Mid Frequency		 HMF Frequency		
+Map	High Mid Q		 HMF Q		
+Map	Low Mid Gain		 LMF Gain		
+Map	Low Mid Frequency		 LMF Frequency		
+Map	Low Mid Q		 LMF Q		
+Map	Low Gain		 LF Gain		
+Map	Low Frequency		 LF Frequency		
+//Map	XX		 EQ E Mode		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		 Comp On		
+// Rotaries					
+Map	Compressor Threshold		 C Threshold		
+Map	Compressor Release		 C Release		
+Map	Compressor Ratio		 C Ratio		
+Map	Parallel Dry Wet		 Rotary 1		
+Map	Compressor Attack		 C Fast Atk		
+// Meters					
+Map	Compressor Gain Reduction		 Comp Gain Reduction		
+//Map	XX		 Key On		
+//Map	XX		 C Peak		
+// OUTPUT			_____________________		
+// Buttons					
+Map	Mute		 Mute		
+Map	Solo		 Solo		
+// Rotaries					
+Map	Volume		 Level		
+Map	Pan		 Pan		
+Map	Drive		 FX1 Send Level		
+Map	Character		 Width		
+// Meters					
+Map	Output Meter L		 VU Meter L		
+Map	Output Meter R		 VU Meter R		
+// INSERTS			_____________________		
+//Map	XX		 Inserts Connected		
+// TRACK			_____________________		
+//Map	Track Buttons				
+//Map	Track Copy		XX		
+//Map	Track Group		XX		
+//Map	Page Buttons				
+Map	Page Up		Next Remote Base Channel		
+Map	Page Down		Previous Remote Base Channel		
+//Map	Order				
+Map	Order		 Dyn Post EQ		
+//Map	External Sidechain				
+//Map	External Sidechain		XX		
+// DISPLAY			_____________________		
+//Map	Display On		XX		
+//Map	Display Mode		XX		
+
+//	COMBINATOR 			__________________________________________
+
+Scope	Propellerheads	Combinator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// DISPLAY			_____________________		
+Map	Display On		Button 1		
+Map	Display Mode		Button 2		
+// INPUT			_____________________		
+// Buttons					
+Map	Filters to Compressor		Button 3		
+Map	Phase Invert		Button 4		
+Map	Preset		Button 5		
+// Rotaries					
+Map	Input Gain		Rotary 1		
+Map	High Cut		Rotary 2		
+Map	Low Cut		Rotary 3		
+// Meters					
+Map	Peak Input Meter		Audio In Indicator		
+Map	Peak Output Meter		Audio Out Indicator		
+// SHAPE			_____________________		
+// Buttons					
+Map	Gate On		Button 6		
+Map	Hard Gate		Button 7		
+// Rotaries					
+Map	Gate		Rotary 4		
+Map	Gate Release		Rotary 5		
+Map	Sustain		Rotary 6		
+Map	Punch		Rotary 7		
+// Meters					
+//Map	Gate Gain Reduction				
+// EQUALIZER			_____________________		
+// Buttons					
+Map	EQ On		Button 8		
+Map	Low Shape		Button 9		
+Map	High Shape		Button 10		
+// Rotaries					
+Map	Low Frequency		Rotary 8		
+Map	Low Gain		Rotary 9		
+Map	Low Mid Q		Rotary 10		
+Map	Low Mid Frequency		Rotary 11		
+Map	Low Mid Gain		Rotary 12		
+Map	High Mid Q		Rotary 13		
+Map	High Mid Frequency		Rotary 14		
+Map	High Mid Gain		Rotary 15		
+Map	High Frequency		Rotary 16		
+Map	High Gain		Rotary 17		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Button 11		
+// Rotaries					
+Map	Compressor Ratio		Rotary 18		
+Map	Parallel Dry Wet		Rotary 19		
+Map	Compressor Attack		Rotary 20		
+Map	Compressor Release		Rotary 21		
+Map	Compressor Threshold		Rotary 22		
+// Meters					
+//Map	Compressor Gain Reduction				
+// OUTPUT			_____________________		
+// Buttons					
+Map	Solo		Button 12		
+Map	Mute		Button 13		
+// Rotaries					
+Map	Drive		Rotary 23		
+Map	Character		Rotary 24		
+Map	Pan		Rotary 25		
+Map	Volume		Rotary 26		
+// Meters					
+Map	Output Meter L		Mixer In Left 1		
+Map	Output Meter R		Mixer In Right 1		
+// TRACK			_____________________		
+Map	Page Up		Select Next Patch		
+Map	Page Down		Select Previous Patch		
+Map	Track Group		Button 14		
+Map	Track Copy		Button 15		
+Map	Order		Button 16		
+Map	External Sidechain		Button 17		
+
+
+//	COMPRESSOR DEVICES 			__________________________________________
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// COMPRESSOR			_____________________		
+// Buttons					
+// Map	Compressor On		Enabled		
+// Rotaries					
+Map	Compressor Threshold		Threshold		
+Map	Compressor Release		Release		
+Map	Compressor Ratio		Ratio		
+Map	Compressor Attack		Attack		
+// Meters					
+Map	Compressor Gain Reduction		Gain		
+// OUTPUT			_____________________		
+Map	Output Meter L		Peak Meter		
+
+
+Scope	Propellerheads	MClass Compressor			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Filters to Compressor		Soft Knee		
+Map	Phase Invert		Sidechain Solo		
+Map	Preset		Adapt		
+Map	Input Gain		Input Gain		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Enabled		
+// Rotaries					
+Map	Compressor Ratio		Ratio		
+Map	Compressor Attack		Attack		
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Threshold		
+// Meters					
+Map	Compressor Gain Reduction		Gain Meter		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Gain		
+// Meters					
+Map	Output Meter L		Peak Meter		
+
+Scope	kiloHearts	com.kilohearts.Compressor			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Mode		
+// Rotaries					
+Map	Compressor Ratio		Ratio		
+Map	Compressor Attack		Attack		
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Threshold		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Makeup		
+
+Scope	FXpansion Audio UK Ltd.	com.fxpansion.DCAMChanComp			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Input Gain		Input Gain		
+// COMPRESSOR			_____________________		
+// Buttons					
+//Map	Compressor On		Enabled		
+// Rotaries					
+Map	Compressor Ratio		Ratio		
+Map	Compressor Attack		Attack		
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Bias		
+Map	Parallel Dry Wet		Mix		
+// Meters					
+Map	Compressor Gain Reduction		Gain Meter		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Gain		
+
+
+Scope	Cakewalk	com.cakewalk.RE2A			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Input Gain		Input Gain		
+// COMPRESSOR			_____________________		
+// Buttons					
+//Map	Compressor On		Enabled		
+// Rotaries					
+Map	Compressor Ratio		PeakReduction		
+Map	Compressor Release		R37		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		OutputGain		
+
+
+Scope	Synapse Audio Software	com.synapseAudioSoftware.SynapseRE160			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Input Gain		Input Level		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Mode		
+// Rotaries					
+Map	Compressor Ratio		Ratio		
+Map	Compressor Attack		Attack		
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Threshold		
+Map	Parallel Dry Wet		Mix		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Level		
+
+
+Scope	Red Rock Sound	ru.redrocksound.C1L1			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Filters to Compressor		Switch Filter		
+Map	Phase Invert		Switch Input/GR		
+Map	Preset		Switch Attack Mode		
+// Rotaries					
+Map	Low Cut		Mid Scoop		
+Map	High Cut		Filter		
+// COMPRESSOR			_____________________		
+// Buttons					
+//Map	Compressor On				
+// Rotaries					
+Map	Compressor Ratio		Ratio		
+Map	Parallel Dry Wet		Dry/Mix		
+Map	Compressor Attack		Attack		
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Threshold		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Makeup		
+
+
+
+
+//	EQ DEVICES 			__________________________________________
+
+
+Scope	Propellerheads	MClass Equalizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+Map	Filters to Compressor		Low Cut Enable		
+// Rotaries					
+Map	Low Cut		Low Shelf Q		
+Map	High Cut		Hi Shelf Q		
+// EQUALIZER			_____________________		
+// Buttons					
+//Map	EQ On				
+// Rotaries					
+Map	High Gain		Hi Shelf Gain		
+Map	High Frequency		Hi Shelf Frequency		
+Map	High Mid Gain		Parametric 2 Gain		
+Map	High Mid Frequency		Parametric 2 Frequency		
+Map	High Mid Q		Parametric 2 Q		
+Map	Low Mid Gain		Parametric 1 Gain		
+Map	Low Mid Frequency		Parametric 1 Frequency		
+Map	Low Mid Q		Parametric 1 Q		
+Map	Low Gain		Low Shelf Gain		
+Map	Low Frequency		Low Shelf Frequency		
+// Meters					
+Map	Output Meter L		Peak Meter		
+// TRACK			_____________________		
+Map	Select Track 1		Low Shelf Enable		
+Map	Select Track 2		Parametric 1 Enable		
+Map	Select Track 3		Parametric 2 Enable		
+Map	Select Track 4		Hi Shelf Enable		
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// EQUALIZER			_____________________		
+// Buttons					
+Map	EQ On		Filter B On/Off		
+// Rotaries					
+Map	High Mid Gain		Filter B Gain		
+Map	High Mid Frequency		Filter B Freq		
+Map	High Mid Q		Filter B Q		
+Map	Low Mid Gain		Filter A Gain		
+Map	Low Mid Frequency		Filter A Freq		
+Map	Low Mid Q		Filter A Q		
+// Meters					
+Map	Output Meter L		Peak Meter		
+
+Scope	kiloHearts	com.kilohearts.3BandEQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// EQUALIZER			_____________________		
+// Buttons					
+//Map	EQ On				
+// Rotaries					
+Map	High Gain		High		
+Map	High Mid Gain		Mid		
+Map	High Mid Frequency		High Split		
+Map	Low Mid Gain		Low		
+Map	Low Mid Frequency		Low Split		
+
+Scope	u-he	com.uheplugins.UhbikQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Rotaries					
+Map	Low Cut		LoCut		
+Map	High Cut		HiCut		
+// EQUALIZER			_____________________		
+// Buttons					
+//Map	EQ On				
+// Rotaries					
+//Map	High Gain				
+//Map	High Frequency				
+Map	High Mid Gain		HiGain		
+Map	High Mid Frequency		HiFreq		
+Map	High Mid Q		HiType		
+Map	Low Mid Gain		LowGain		
+Map	Low Mid Frequency		LowFreq		
+Map	Low Mid Q		LowType		
+Map	Low Gain		BottomGain		
+Map	Low Frequency		BottomFreq		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Gain		
+
+Scope	Selig Audio	com.seligaudio.ColoringEQ			
+// INPUT			_____________________			
+// Buttons						
+Map	Filters to Compressor		F1 Enable			
+Map	Phase Invert		F2 Enable			
+// Map	Preset		E Mode On			
+// Rotaries						
+Map	Low Cut		F1 Tune			
+Map	High Cut		F2 Tune			
+//Map	Input Gain					
+// Meters						
+//Map	Peak Input Meter					
+//Map	Peak Output Meter					
+
+// EQUALIZER			_____________________			
+// Buttons						
+Map	EQ On		EQ Enable			
+// Map	Low Shape		LF Bell On			
+// Map	High Shape		HF Bell On			
+// Rotaries						
+Map	High Gain		EQ5 Gain			
+Map	High Frequency		EQ5 Tune			
+Map	High Mid Gain		EQ4 Gain			
+Map	High Mid Frequency		EQ4 Tune			
+Map	High Mid Q		EQ4 Q			
+Map	Low Mid Gain		EQ2 Gain			
+Map	Low Mid Frequency		EQ2 Tune			
+Map	Low Mid Q		EQ2 Q			
+Map	Low Gain		EQ1 Gain			
+Map	Low Frequency		EQ1 Tune			
+//Map	XX								
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Level		
+
+
+Scope	Synapse Audio Software	com.synapseAudioSoftware.SynapseGQ7			
+// INPUT			_____________________			
+// Buttons						
+Map	Filters to Compressor		Low Cut Filter Active			
+Map	Phase Invert		High Cut Filter Active			
+// Map	Preset		E Mode On			
+// Rotaries						
+Map	Low Cut		Low Cut Filter Freq			
+Map	High Cut		High Cut Filter Freq			
+//Map	Input Gain					
+// Meters						
+//Map	Peak Input Meter					
+//Map	Peak Output Meter					
+
+// EQUALIZER			_____________________			
+// Buttons						
+Map	EQ On		EQ Enable			
+// Map	Low Shape		LF Bell On			
+// Map	High Shape		HF Bell On			
+// Rotaries						
+Map	High Gain		Band 5 Gain			
+Map	High Frequency		Band 5 Freq			
+Map	High Mid Gain		Band 4 Gain			
+Map	High Mid Frequency		Band 4 Freq			
+Map	High Mid Q		Band 4 Q			
+Map	Low Mid Gain		Band 2 Gain			
+Map	Low Mid Frequency		Band 2 Freq			
+Map	Low Mid Q		Band 2 Q			
+Map	Low Gain		Band 1 Gain			
+Map	Low Frequency		Band 1 Freq			
+//Map	XX								
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Volume		
+
+
+Scope	Rob Papen	com.robpapen.RPEQ			
+// INPUT			_____________________			
+// Buttons						
+Map	Filters to Compressor		Filter On			
+// Map	Phase Invert		F2 Enable			
+// Map	Preset		E Mode On			
+// Rotaries						
+Map	Low Cut		HighPassFrequency			
+Map	High Cut		LowPass Frequency			
+//Map	Input Gain					
+// Meters						
+//Map	Peak Input Meter					
+//Map	Peak Output Meter					
+
+// EQUALIZER			_____________________			
+// Buttons						
+Map	EQ On		EQ On			
+// Map	Low Shape		LF Bell On			
+// Map	High Shape		HF Bell On			
+// Rotaries						
+Map	High Gain		EQ Band 4 Gain			
+Map	High Frequency		EQ Band 4 Frequency			
+Map	High Mid Gain		EQ Band 3 Gain			
+Map	High Mid Frequency		EQ Band 3 Frequency			
+Map	High Mid Q		EQ Band 3 BW			
+Map	Low Mid Gain		EQ Band 2 Gain			
+Map	Low Mid Frequency		EQ Band 2 Frequency			
+Map	Low Mid Q		EQ Band 2 BW			
+Map	Low Gain		EQ Band 1 Gain			
+Map	Low Frequency		EQ Band 1 Frequency			
+//Map	XX								
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Output Level		
+
+
+
+// DISTORTION
+
+Scope	Propellerheads	Scream 4 Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Meters					
+Map	Peak Input Meter		Input Peak Meter		
+// SHAPE			_____________________		
+// Buttons					
+Map	Gate On		Damage On/Off		
+// Rotaries					
+Map	Gate		Damage Type		
+// EQUALIZER			_____________________		
+// Buttons					
+Map	EQ On		Cut On/Off		
+// Rotaries					
+Map	High Gain		Cut Hi		
+Map	High Mid Gain		Cut Mid		
+Map	Low Gain		Cut Lo		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Body On/Off		
+// Rotaries					
+Map	Compressor Ratio		Body Type		
+Map	Compressor Attack		Body Resonance		
+Map	Compressor Release		Body Scale		
+Map	Compressor Threshold		Body Auto		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Drive		Damage Control		
+Map	Character		Parameter 1		
+Map	Pan		Parameter 2		
+Map	Volume		Master Level		
+
+Scope	Propellerheads	Pulveriser			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Rotaries					
+Map	Low Cut		Peak		
+Map	High Cut		Filter Frequency		
+// Meters					
+Map	Peak Input Meter		Input Peak Meter		
+// SHAPE			_____________________		
+// Buttons					
+Map	Gate		Follower Attack		
+Map	Gate Release		Follower Release		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Routing		
+// Rotaries					
+//Map	Compressor Ratio				
+Map	Parallel Dry Wet		Blend		
+//Map	Compressor Attack				
+Map	Compressor Release		Release		
+Map	Compressor Threshold		Squash		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Drive		Dirt		
+Map	Character		Tone		
+Map	Volume		Volume		
+
+Scope	Propellerheads	D-11 Foldback Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Meters					
+Map	Peak Input Meter		Peak Meter		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Drive		Amount		
+Map	Character		Foldback		
+
+Scope	Rob Papen	com.robpapen.RPDistort			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Rotaries					
+Map	Low Cut		Filter High		
+Map	High Cut		Filter Low		
+//Map	Input Gain				
+// SHAPE			_____________________		
+// Buttons					
+Map	Gate On		Noise Gate On		
+// Rotaries					
+Map	Gate		Noise Gate Threshhold		
+Map	Gate Release		Noise Gate Release		
+Map	Sustain		Noise Gate Hold		
+Map	Punch		Noise Gate Attack		
+// EQUALIZER			_____________________		
+// Buttons					
+Map	EQ On		EQ On		
+// Rotaries					
+Map	High Gain		EQ High		
+Map	High Mid Gain		EQ Mid 2		
+Map	Low Mid Gain		EQ Mid 1		
+Map	Low Gain		EQ Low		
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Compressor On		
+// Rotaries					
+Map	Compressor Ratio		Compressor Ratio		
+Map	Parallel Dry Wet		Mix		
+Map	Compressor Attack		Compressor Attack		
+Map	Compressor Release		Compressor Decay		
+Map	Compressor Threshold		Compressor Limit		
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Volume		Volume		
+Map	Pan		Widen Amount		
+Map	Drive		Distortion Pre-Boost		
+Map	Character		Widen Speed		
+					
+Scope	Propellerhead Software	se.propellerheads.ChannelEQ				
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	
+// INPUT			_____________________			
+// Buttons						
+Map	Filters to Compressor		HPF On			
+Map	Phase Invert		LPF On			
+Map	Preset		E Mode On			
+// Rotaries						
+Map	Low Cut		HPF Frequency			
+Map	High Cut		LPF Frequency			
+//Map	Input Gain					
+// Meters						
+//Map	Peak Input Meter					
+//Map	Peak Output Meter					
+// SHAPE			_____________________			
+// Buttons						
+//Map	Gate On					
+//Map	Hard Gate					
+// Rotaries						
+//Map	Gate					
+//Map	Sustain					
+//Map	Gate Release					
+//Map	Punch					
+// Meters						
+//Map	Gate Gain Reduction					
+//Map	XX					
+// EQUALIZER			_____________________			
+// Buttons						
+//Map	EQ On		Enabled			
+Map	Low Shape		LF Bell On			
+Map	High Shape		HF Bell On			
+// Rotaries						
+Map	High Gain		HF Gain			
+Map	High Frequency		HF Frequency			
+Map	High Mid Gain		HMF Gain			
+Map	High Mid Frequency		HMF Frequency			
+Map	High Mid Q		HMF Q			
+Map	Low Mid Gain		LMF Gain			
+Map	Low Mid Frequency		LMF Frequency			
+Map	Low Mid Q		LMF Q			
+Map	Low Gain		LF Gain			
+Map	Low Frequency		LF Frequency			
+//Map	XX					
+// OUTPUT			_____________________			
+// Buttons						
+//Map	Mute					
+//Map	Solo					
+// Rotaries						
+Map	Volume		Gain			
+//Map	Pan					
+//Map	Drive					
+//Map	Character					
+// Meters						
+//Map	Output Meter L					
+//Map	Output Meter R					
+// DISPLAY			_____________________			
+//Map	Display On					
+//Map	Display Mode					
+
+Scope	Propellerhead Software	se.propellerheads.ChannelDynamics			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// INPUT			_____________________		
+// Buttons					
+//Map	Filters to Compressor				
+//Map	Phase Invert				
+//Map	Preset				
+// Rotaries					
+//Map	Low Cut				
+//Map	High Cut				
+//Map	Input Gain				
+// Meters					
+//Map	Peak Input Meter				
+//Map	Peak Output Meter				
+// COMPRESSOR			_____________________		
+// Buttons					
+Map	Compressor On		Comp On		
+// Rotaries					
+Map	Compressor Ratio		Comp Ratio		
+Map	Parallel Dry Wet		Mix		
+Map	Compressor Attack		Comp Fast On		
+Map	Compressor Release		Comp Release		
+Map	Compressor Threshold		Comp Threshold		
+// Meters					
+Map	Compressor Gain Reduction		Comp Meter		
+//Map	XX				
+//Map	XX				
+// OUTPUT			_____________________		
+// Rotaries					
+Map	Drive		Input Gain		
+//Map	Character				
+//Map	Pan				
+//Map	Volume				
+// Meters					
+//Map	Output Meter L				
+//Map	Output Meter R				
+
+

@@ -1,0 +1,24 @@
+--
+-- Remote Codec for Softube's Console 1 controller
+--    (c) Birgit Jauernig
+--        2016-02-19
+--
+version={0,0,2}
+
+function remote_supported_control_surfaces()
+local surfaces =
+	{
+		{
+			manufacturer="Softube",
+			model="Console 1 - 20 Channel",
+			source="Softube Console1 20 channel.lua",
+			picture="Softube Console1 20 channel.png",
+			in_ports={{description="In Port", optional=false}},
+			out_ports={{description="Out Port", optional=false}},
+			setup_info_text="",
+			setup_user_action_text="",
+			has_keyboard=false
+		},
+	}
+return surfaces
+end
